@@ -1,0 +1,58 @@
+.education{
+    background-color: lightgray;
+    height: 320px;
+    padding-right: 20px;
+}
+.category{
+    text-align: center;
+}
+
+.Date{
+    text-align: right;
+}
+
+.experience{
+    height: 320px;
+    padding-right: 20px;
+}
+
+.thesis{
+    background-color: lightgray;
+    height: 350px;
+    padding-right: 20px;
+}
+
+#thesis_link{
+    font-size: medium;
+}
+
+.publications{
+    height: 320px;
+    padding-right: 20px;
+}
+
+.Contact{
+    background-color: lightgray;
+    height: 200px;
+    padding-right: 20px;
+}
+
+
+.rounded-circle{
+    border-radius: 50%;
+}
+
+.top{
+    padding-bottom: 50px;
+}
+
+.intro{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.myself{
+    padding-top: 50px;
+    text-align: justify;
+   
+}
