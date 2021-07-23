@@ -89,7 +89,7 @@ nav ul li{
     text-align: end;
 }
 
-.date, .about-me{
+.date, .about-me, .about-thesis, .about-pub{
     padding-right: 1em;
 }
 
