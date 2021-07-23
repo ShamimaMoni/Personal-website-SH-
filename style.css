@@ -1,63 +1,108 @@
-.education{
-    background-color: lightgray;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
 .category{
     text-align: center;
 }
 
-.Date{
-    text-align: right;
-}
-
-.experience{
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
-.thesis{
+.navigation{
+    display: flex;
+    align-items: center;
+    padding-left: 1.5em;
+    padding-top: 0.5em;
     background-color: lightgray;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
     padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    color: black;
+}
+
+.menu{
+    margin-top: 1em;
+    margin-left: auto;
+}
+
+.menu a{
+    color: black;
+}
+
+.container{
+    height: 40px;
 }
 
 #thesis_link{
     font-size: medium;
 }
 
-.publications{
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
-.Contact{
-    background-color: lightgray;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
-
 .rounded-circle{
     border-radius: 50%;
 }
 
-.top{
-    padding-bottom: 50px;
+.introduction{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 1em;
 }
 
-.intro{
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-
-.myself{
+.about-me{
+    grid-column: 2/span 3;
     text-align: justify;
-   
+}
+
+.profile{
+    margin: auto;
+}
+
+.profile a{
+    padding-right: 1em;
+}
+
+.education, .experience, .thesis, .publications{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-top: 2em;
+}
+
+.education,.thesis, .Contact{
+    background-color: lightgray;
+    padding-bottom: 10px;
+}
+
+.edu-image, .exp-image{
+    grid-row: 1/span 2;
+    text-align: center;
+}
+
+.thesis-image, .pub-image{
+    text-align: center;
+}
+.about-thesis, .about-pub{
+    grid-column: 2/span 3;
+}
+
+.date{
+    text-align: end;
+}
+
+.date, .about-me{
+    padding-right: 1em;
+}
+
+
+@media (max-width:980px){
+    .education, .experience, .thesis, .publications{
+        place-items: center;
+    }
+    .profile{
+        padding-right: 0.3em;
+    }
+
+    .profile a{
+        padding-right: 0.5em;
+    }
 }
