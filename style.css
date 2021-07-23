@@ -1,3 +1,6 @@
+*{
+    margin:0;
+}
 .category{
     text-align: center;
 }
@@ -100,6 +103,10 @@ nav ul li{
     }
     .profile{
         padding-right: 0.3em;
+    }
+
+    .date, .about-me, .about-thesis, .about-pub{
+        padding-right: 1.5em;
     }
 
     .profile a{
