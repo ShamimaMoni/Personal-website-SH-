@@ -81,7 +81,7 @@ nav ul li{
 }
 
 .edu-image, .exp-image{
-    padding-top: 4em;
+    padding-top: 20%;
     grid-row: 1/span 2;
     text-align: center;
     vertical-align: middle;
